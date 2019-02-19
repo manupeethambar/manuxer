@@ -779,7 +779,7 @@ a:hover {
 }
 
 .work-img img {
-  transition: all 1s;
+  transition: all 0.5s;
 }
 
 .work-content {
