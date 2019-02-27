@@ -114,6 +114,21 @@
 		}
 	});
 
+	document.onreadystatechange = function(){
+    if(document.readyState=='loaded' || document.readyState=='complete')
+        myFunction();
+	}
+	function myFunction() {
+	  var x = document.getElementById("welcome-message");
+	  x.className = "show";
+	  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+	  var d= new Date();
+	  var hourNow = d.getHours();
+	  var greeting = (hourNow < 12)? "Hi, Good Morning!" :
+	             ((hourNow <= 18 && hourNow >= 12 ) ? "Hi, Good Afternoon!" : "Hi, Good Evening!");
+	  document.getElementById("welcome-message").innerHTML = greeting;
+	}
+
 })(jQuery);
 
 
