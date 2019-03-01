@@ -1237,6 +1237,13 @@ footer .credits a {
   .box-comments .list-comments .comment-author {
     font-size: 1.5rem;
   }
+
+  #profile {
+    position: absolute;
+    top: -2em;
+    left: 2em;
+    max-width: 27em;
+  }
 }
 
 @media (min-width: 992px) {
