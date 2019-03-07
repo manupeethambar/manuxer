@@ -115,7 +115,7 @@
 	});
 
 	document.onreadystatechange = function(){
-    if(document.readyState=='loaded' || document.readyState=='complete')
+    if(document.body.scrollTop === 0 && (document.readyState=='loaded' || document.readyState=='complete'))
         myFunction();
 	}
 	function myFunction() {
