@@ -1304,6 +1304,20 @@ footer .credits a {
     left: 2em;
     max-width: 27em;
   }
+
+  #about {
+    background-image: url(../img/personal_site.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 5em;
+  }
+
+  #skills {
+    background-image: url(../img/businessman.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -10em;
+  }
 }
 
 @media (min-width: 992px) {
