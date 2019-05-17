@@ -19,6 +19,12 @@
     background-color: #F8F8F8;
 }
 
+#site-menu {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
 
 /* Ripple effect */
 #menu-coeit-ssc-new .menu-item a {
@@ -60,12 +66,12 @@ h2{
 .sticky {
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
+    top: 32px;
 }
 .sub-th {
     position: -webkit-sticky;
     position: sticky;
-    top: 36px;
+    top: 68px;
 }
 
 .fl-table {
@@ -107,7 +113,7 @@ h2{
 }
 
 .fl-table tbody tr th {
-    background-color: #586979;
+    background-color: #497fb1;
     color: #F8F6FB;
 }
 .fl-table td, .fl-table th {
@@ -1778,6 +1784,104 @@ td.visible-print {
     display: none !important;
   }
 }
+
+
+/*=============MEET THE TEAM==============*/
+
+#team{
+  display:flex;
+  flex-wrap: wrap;
+  flex-grow:3;
+}
+#team .card {
+  width: 30%;
+  min-width: 250px;
+  height: 25em;
+  overflow: hidden;
+  position: relative;
+  margin: 0 5% 1% 0;
+  display: inline-block;
+}
+#team .card:nth-of-type(3n){
+  margin-right:0;
+}
+#team .card img {
+  width: 100%;
+  min-height:100%;
+  transition:all 0.9s;
+}
+#team .card:hover img{
+ transform:scale(1.2,1.2);
+}
+#team .data {
+  position: absolute;
+  bottom: 5%;
+  background: #fff;
+  text-align:center;
+  width: 90%;
+  height: 80px;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 10px 5%;
+  box-sizing: border-box;
+  opacity: 0.8;
+  transition: all 0.4s;
+}
+
+#team .card:hover .data {
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  opacity: 0.9;
+  padding: 3%;
+}
+
+#team .data h2 {
+  margin: 0 0 5px 0;
+  transition:color 0.4s
+}
+
+#team .data p {
+  opacity: 0;
+  text-align:justify;
+  transition: all 0.2s;
+}
+
+#team .card:hover .data p,.card:hover .data a {
+  opacity: 1;
+}
+
+/*#team .data a{
+  color:#333;
+  text-decoration:none;
+  padding:20px;
+  opacity:0
+}*/
+#team .data a:hover,.card:hover h2{
+  color:#38c
+}
+
+#team td.photo.first-child {
+  display: none;
+}
+
+#team tr.person {
+  display: inline-grid;
+}
+
+#team .address {
+    padding-top: 1em;
+}
+
+@media (max-width:799px){
+  #team .card {width:100%;margin-right:0;}
+}
+
+/*========================================*/
+
+
 
 #PA97254 {
     background-image: url('https://webadmin.umbc.edu/admin/CV/Photo?campus_id=PA97254');
