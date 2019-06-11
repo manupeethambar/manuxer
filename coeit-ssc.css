@@ -29,6 +29,7 @@
     height: 7.5em;
     background-color: #F8F8F8;
 }
+
 @media (min-width: 768px) {
   #site-menu {
       position: -webkit-sticky;
@@ -1897,6 +1898,10 @@ td.visible-print {
 
 #team .address {
     padding-top: 1em;
+}
+
+#team .umbc-directory-listing .umbc-people td {
+    padding-top: 11px;
 }
 
 @media (max-width:799px){
