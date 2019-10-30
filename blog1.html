@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Blog | UserWorks</title>
+    
+    <!-- <link href="../css/bootstrap.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/main-nav.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/blog.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-74352866-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-74352866-1', {
+       'link_attribution': true
+      });
+    </script>
+    
+  </head>
+  
+  <body>
+  
+    <nav class="navbar navbar-default" id="navbar-uw">
+      <div class="container-fluid container-fluid-sm">
+  
+        <!------- Skipnav (Hidden via css) ------>
+        <a href="#maincontent" class="skipnav" aria-label="Hit enter to skip navigation" id="skip">Skip Navigation</a>
+     
+        <!-- Brand and mobile-dropdown-toggle  -->
+        <div class="navbar-header" id="header-uw">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-uw">
+            <i class="fa fa-reorder fa-3x" aria-hidden="false" aria-label="Menu Icon" title="Open Main Navigation Menu"></i>
+          </button>
+          <a class="navbar-brand" id="pagetop" href="index.html" aria-label="Link to home page">
+            <img alt="UserWorks Logo" id="brand-logo-uw" src="../img/UW-Logo-Br-nav.png"> 
+            <img src="../img/UW-Logo-Br-Ltr.png" id="brand-logo-uw-ltr" alt="UserWorks Logo Letter U W">
+          </a>
+        </div>
+  
+        <!-- Collapses into dropdown on Mobile -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-uw">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Services<span class="caret"></span></a>
+              <ul class="dropdown-menu dropdown-menu-left" role="menu">
+                <li><a href="usercentereddesign.html" aria-label="Current page. user-centered design">User-Centered Design</a></li>
+                <li><a href="accessibility.html" aria-label="accessibility remediation">Accessibility Remediation</a></li>
+                <li><a href="meddevstandards.html" aria-label="medical device standards">Medical Device Standards</a></li>
+                <li><a href="recruiting.html" aria-label="participant recruitment">Participant Recruitment</a></li>
+                <li><a class="serv-all" href="business.html"><i aria-hidden="true" class="fa fa-arrow-circle-o-right"></i> See All</a></li>
+              </ul>
+            </li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><div class="standout-participate"><a href="participate.html">Participate</a></div></li>
+          </ul>
+        </div>
+   
+      </div>
+    </nav>
+
+    <!---------- Skipnav Target ------------->
+    <main id="maincontent"></main>
+    
+    <!----------------------------------------------------->
+    <!------------------ Breadcrumb Block ----------------->
+    <!----------------------------------------------------->
+    
+    <div class="container-fluid container-banner non-home-banner-new" id="non-homepage-banner">
+      <div class="row row-sm-nopad">
+    
+        <div class="col-xs-12 banner-title-new">
+          <a href="index.html" class="fa fa-home bcrumb-div-new-a" aria-label="home" title="home"></a>
+          <i class="fa fa-angle-right bcrumb-div-new-b" aria-hidden="true"></i>
+          <a href="index.html" class="bcrumb-new">Blog</a>
+          <i class="fa fa-angle-right bcrumb-div-new-b" aria-hidden="true"></i>
+          <a href="#" class="bcrumb-new active">Post A</a>
+        </div>
+    
+      </div>
+    </div>
+    
+    <!----------------------------------------------------->
+    <!--------------- Service Banner Block ---------------->
+    <!----------------------------------------------------->
+    
+    <div class="container-fluid container-content-blog">
+      <div class="row row-sm">
+    
+        <div class="col-xs-12 col-md-2 col-post-info">
+          <div class="box-img-author">
+            <img src="../img/photos/headshots/stock-headshot.png" alt="Photo of author">
+          </div>
+          <p class="text-author">Author Name</p>
+          <p class="text-date">October 1, 2019</p>
+        </div>
+        
+        <div class="col-xs-12 col-md-10">
+        
+          <!-- Start | Title Block for Blog Post -->
+          <div class="box-post-title">
+            <h1>Example Full Blog Post Title</h1>
+            <div class="box-share">
+              <button type="button" onclick="Copy();" class="button-share" aria-label="Share this article"></button>
+              <textarea id="textbox-url" class="" aria-label="URL for current article copied to clipboard"></textarea>
+              <p class="copy-confirm" aria-hidden="true"><i class="fa fa-check" aria-hidden="true"></i> Link copied to clipboard</p>
+            </div>
+          </div>
+          
+          <!-- Start | Content Block for Blog Post -->
+          <div class="box-post-content">
+          
+            <p class="text-block-blog">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            
+            <div class="box-img-blog box-img-blog-lg-w box-img-blog-md-h">
+              <img class="img-blog" src="..\img\blog\stock-1.jpg" alt="Placeholder">
+             <!-- <p class="caption-img-blog">Example Image Caption</p> -->
+            </div>
+            
+            <p class="text-block-blog">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. </p>
+            <p class="text-block-blog">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+            
+            <h2 class="text-block-h-blog">Example Heading Level 2</h2>
+            
+            <p class="text-block-blog">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="text-block-blog">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="text-block-blog">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="text-block-blog">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+            <p class="text-block-blog">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="text-block-blog">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="text-block-blog">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          </div>
+         
+        </div>
+    
+      </div>
+    </div>
+    
+
+    <!----------------------------------------------------->
+    <!------------------- Footer Block -------------------->
+    <!----------------------------------------------------->
+  
+    <footer>
+      <div class="container-fluid container-footer-new">
+        <div class="row row-sm">
+          <div class="col-xs-12" id="col-foot-lower">
+  
+            <!------------ Social Icons ------------->
+            <div class="col-xs-12 col-sm-12 col-foot-social">
+              <a href="https://www.facebook.com/userworks" target="_blank" aria-label="UserWorks' Facebook Page">
+                <i class="fa fa-facebook-square i-con" id="foot-fbk" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.twitter.com/userworks" target="_blank" aria-label="UserWorks on Twitter">
+                <i class="fa fa-twitter-square i-con" id="foot-twt" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.linkedin.com/company/userworks-inc-" target="_blank" aria-label="UserWorks' Linkedin Page">
+                <i class="fa fa-linkedin-square i-con" id="foot-lnkd" aria-hidden="true"></i>
+              </a>
+            </div>
+  
+            <!------------- Footer Nav -------------->
+            <div class="col-xs-12 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3 col-foot-nav">
+              <ul>
+                <li><a aria-label="Return to top of page" href="#pagetop">&uarr; Top</a></li>
+                <li><a href="business.html" id="bus-foot">Services</a></li>
+                <li><a href="team.html" id="team-foot">Team</a></li>
+                <li><a href="facilities.html" id="fac-foot">Facilities</a></li>
+                <li><a href="contact.html" id="cont-foot">Contact</a></li>
+              </ul>
+            </div>
+
+            <!---------- Copyright Info ------------->
+            <div class="col-xs-12 col-sm-12" id="copyright-new">
+              <p>Copyright &copy; 2018 UserWorks, Inc. All rights reserved.</p>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!------- jQuery & Bootstrap JS --------->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    
+    <!-- Custom Script for Share URL Copy --->
+    <script type="text/javascript">
+      function Copy(){
+        var Url = document.getElementById("textbox-url");
+        
+        //Toggles the visibility of the URL textarea, but toggles the animation class first so that it displays correctly  Also See: https://tutorialcodeplay.com/jquery/jquery-fadetoggle.html
+        $(Url).fadeIn({duration:100,start:function(){$(this).addClass("textbox-visible")}});
+        $(Url).next().fadeIn({duration:300,start:function(){$(this).addClass("confirm-visible")}});
+        
+        //Retrieves and fills-in the current URL from the browser, sets focus to the textarea, and selects the generated URL text
+        Url.value = window.location.href;
+        Url.focus();
+        Url.select();  
+        
+        //Adds the URL to the user's clipboard
+        document.execCommand("Copy");
+      }
+      
+      //Hides the URL textbox when it loses focus. Also toggles the textbox-visible class
+      $("#textbox-url").focusout(function() {
+        $('#textbox-url').fadeOut(300).removeClass("textbox-visible");
+        $('#textbox-url').next().fadeOut(300).removeClass("confirm-visible");
+      });
+    </script>
+  
+  </body>
+  
+</html>
