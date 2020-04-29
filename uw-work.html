@@ -47,6 +47,12 @@
   </nav>
   <!--/ Nav End /-->
 
+  <!--/ Progress bar Star /-->
+  <div class="progress-container fixed-top">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+  <!--/ Progress bar End/-->
+
   <!--/ Intro Skew Star /-->
   <div class="intro intro-single route bg-image" style="background-image: url(files/Manu_Logo_Paper_Emboss.png)">
     <div class="overlay-mf"></div>
@@ -226,6 +232,18 @@
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <div id="preloader"></div>
+
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+  </script>
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
