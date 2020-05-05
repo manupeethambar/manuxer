@@ -1438,3 +1438,9 @@ footer .credits a {
 .main-timeline8 .year:before{border-left:none;border-right:35px solid transparent;left:auto;right:0}
 .main-timeline8 .timeline-content{margin:0 35px 0 45px}
 }
+
+#work lottie-player {
+  position: absolute;
+  right: 5em;
+  top: -5em;
+}
