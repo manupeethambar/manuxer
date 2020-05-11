@@ -116,6 +116,15 @@ a:hover {
   vertical-align: middle;
 }
 
+.center {
+/*  display: flex;
+  justify-content: center;
+  align-items: center;*/
+  position: absolute;
+  top: 50%;
+/*  left: 50%;*/
+}
+
 /*--/ Sections /--*/
 
 .sect-4 {
