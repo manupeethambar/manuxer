@@ -1468,3 +1468,8 @@ footer .credits a {
     display: none;
   }
 }
+
+section p.lead, .article-content ul li {
+  font-size: 1rem;
+  line-height: 2rem;
+}
