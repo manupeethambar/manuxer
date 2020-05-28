@@ -30,6 +30,8 @@
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
@@ -78,7 +80,7 @@
       <div class="row">
         <div class="col-md-12">
           <h2 class="intro-title mb-4">Overview</h2>
-          <div class="post-box">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
             <div class="article-content">
               <p class="lead">
                 The Visiting Student Learning Opportunities® (VSLO®) is a program that enables medical and public health students to pursue short-term learning opportunities in locations away from their home institutions. Program participants include medical and public health students and institutions in the U.S. and around the globe.
@@ -91,10 +93,10 @@
           </div>
         </div>
       </div>
-      <h2 class="intro-title mb-4">Highlights of the web application for this case study</h2>
+      <h2 class="intro-title mb-4">Highlights of the web application</h2>
       <div class="row">
         <div class="col-md-12">
-          <div class="post-box">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
             <div class="article-content">
               <p class="lead">
                 Enables students to browse and apply to electives offered by host institutions.
@@ -115,7 +117,7 @@
       <h2 class="intro-title mb-4">Objectives and Goals</h2>
       <div class="row">
         <div class="col-md-12">
-          <div class="post-box">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
             <div class="article-content">
               <h3>Objectives</h3>
               <p class="lead">
@@ -145,7 +147,7 @@
       <h2 class="intro-title mb-4">Process</h2>
       <div class="row">
         <div class="col-md-12">
-          <div class="post-box">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
             <div class="article-content">
               <p class="lead">
                 <ul>
@@ -162,7 +164,7 @@
       <h2 class="intro-title mb-4">Research</h2>
       <div class="row">
         <div class="col-md-12">
-          <div class="post-box">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
             <div class="article-content">
               <h3>Discovery</h3>
               <p class="lead">
@@ -200,7 +202,7 @@
       <h2 class="intro-title mb-4">User Groups</h2>
       <div class="row">
         <div class="col-md-12">
-          <div class="post-box">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
             <div class="article-content">
               <p class="lead">
                 During the Discovery phase, major user groups were identified based upon feedback from stakeholders
@@ -217,7 +219,7 @@
       <h2 class="intro-title mb-4">Initial Findings</h2>
       <div class="row">
         <div class="col-md-12">
-          <div class="post-box">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
             <div class="article-content">
               <h3>Attitudes towards VSLO</h3>
               <p class="lead">
@@ -232,45 +234,59 @@
               <img src="files/VSLO/metrics-initial-satisfaction.png" alt="" class="img-fluid">
             </div>
           </div>
-          <div class="post-box">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
             <div class="article-content">
               <h3>Issue Prioritization - Most important issue per user</h3>
               <img src="files/VSLO/issue-priority.png" alt="" class="img-fluid">
               <h4>Documents & Requirements</h4>
               <p class="lead">
                 <ul>
+                  <li><strong>Standardize the assignment of common requirements</strong> across all electives</li>
+                  <li>Documents & requirements should be added one by one - <strong>no bulk upload</strong></li>
                   <li>Documents & requirements <strong>cannot be updated or replaced</strong> after an application has been submitted</li>
-                  <li>Documents & requirements cannot be <strong>uploaded prior to an application being initiated</strong> by the student</li>
+                  <li>Documents & requirements <strong>cannot be uploaded prior to an application being initiated</strong> by the student</li>
                   <li>Documents & requirements are <strong>tied to individual applications</strong>, rather than following students across applications</li>
-                  <li>Users should be able to upload <strong>Supplemental Documents</strong></li>
+                  <li>Users <strong>cannot upload Supplemental Documents</strong></li>
+                  <li>Users <strong>cannot preview documents before Download</strong></li>
                 </ul>
               </p>
             </div>
           </div>
         </div>
       </div>
-      <h2 class="intro-title mb-4">B</h2>
+      <h2 class="intro-title mb-4">User Flows</h2>
       <div class="row">
         <div class="col-md-12">
-          <div class="post-box">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
             <div class="article-content">
-              
-              <div class="row">
-                <img src="files/VSLO/vslo-intro.png" alt="" class="img-fluid">
-              </div>
+              <h5>Home/Student users can upload documents to a central repository</h5>
+              <img src="files/VSLO/userflow-home-student-upload.png" alt="vslo intro" class="img-fluid">
+
+              <h5>Home/Student users can update documents</h5>
+              <img src="files/VSLO/userflow-home-student-update.png" alt="vslo intro" class="img-fluid">
+
+              <h5>Host user can view student information and verify</h5>
+              <img src="files/VSLO/userflow-host-verify.png" alt="vslo intro" class="img-fluid">
+
+              <h5>Host user can view student applications and attached requirement documents and download</h5>
+              <img src="files/VSLO/userflow-host-review-docs.png" alt="vslo intro" class="img-fluid">
             </div>
           </div>
         </div>
       </div>
-      <h2 class="intro-title mb-4">B</h2>
+      <h2 class="intro-title mb-4">User Proposed User Flows</h2>
       <div class="row">
         <div class="col-md-12">
-          <div class="post-box">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
             <div class="article-content">
-              
-              <div class="row">
-                <img src="files/VSLO/vslo-intro.png" alt="" class="img-fluid">
-              </div>
+              <h5>When Home/Student users updates/uploads standard document - should update all applications</h5>
+              <img src="files/VSLO/userflow-one-change-updates-all.png" alt="vslo intro" class="img-fluid">
+
+              <h5>When Home/Student users update requirement documents - an email notification should be sent</h5>
+              <img src="files/VSLO/userflow-email-notification.png" alt="vslo intro" class="img-fluid">
+
+              <h5>Host users should be able to change status of application - Approved or Rejected</h5>
+              <img src="files/VSLO/userflow-host-approve-reject.png" alt="vslo intro" class="img-fluid">
             </div>
           </div>
         </div>
@@ -278,44 +294,36 @@
       <h2 class="intro-title mb-4">Final Proposed Prototype</h2>
       <div class="row">
         <div class="col-md-12">
-          <div class="post-box">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
             <div class="article-content">
-              <div class="row">
-                
-              </div>
+              <img src="files/VSLO/vslo-bg-intro.png" alt="vslo intro" class="img-fluid">
             </div>
           </div>
         </div>
       </div>
-      <h2 class="intro-title mb-4">Application walkthrough</h2>
+      <h2 class="intro-title mb-4">Application Walkthrough</h2>
       <div class="row">
         <div class="col-md-12">
-          <div class="post-box">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
             <div class="article-content">
-              <div class="row">
-                <div class="col-md-6">
-                  <h2 class="center">Login to the application</h2>
-                </div>
-                <div class="col-md-6">
-                  
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-
-                </div>
-                <div class="col-md-6">
-                  <h2 class="center">See if you are a part of any groups</h2>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <h2 class="center">Buy something from the store</h2>
-                </div>
-                <div class="col-md-6">
-                  
-                </div>
-              </div>
+              <h5>Congratulations to have made it so far! Lets connect offline for a detailed application walkthrough...</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="intro-title mb-4">Project Learnings</h2>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <p class="lead">
+                <ul>
+                  <li>Always place the user at the center of every design decision</li>
+                  <li>Do not introduce bias by leading questions in user research</li>
+                  <li>Every data point is important</li>
+                  <li>Learn the limitations of prototyping tools and choose the best</li>
+                </ul>
+              </p>
             </div>
           </div>
         </div>
@@ -375,6 +383,10 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 </html>
