@@ -129,17 +129,5 @@
 	  document.getElementById("welcome-message").innerHTML = greeting;
 	}
 
-	// $(document).ready(function(){
-	// 	$('#work .card-blog').hover(
-	// 			function(){
-	// 				$(this).animate({marginTop: "-=1%",}, 200);
-	// 			},
-	// 			function(){
-	// 				$(this).animate({marginTop: "0%",}, 200);
-	// 			}
-	// 		);
-	// });
-
 })(jQuery);
-
 
