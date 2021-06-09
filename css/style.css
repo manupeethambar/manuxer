@@ -1340,7 +1340,7 @@ footer .credits a {
 
   #profile {
     position: absolute;
-    top: -2em;
+    top: 1em;
     left: 2em;
     max-width: 27em;
   }
