@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135897907-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-135897907-1');
+  </script>
+  
+  <meta charset="utf-8">
+  <title>Usability evaluation and redesign of USPS® Store and Guest Cheeckout</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!--/ Nav Star /-->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll" href="index.html"><img src="img/manu-logo.png" class="img-fluid b-shadow-a" style="width:50px" alt="manUXer"></a>
+      <div id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="javascript:history.back()">&#8678; Back</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ Nav End /-->
+  
+  <!--/ Progress bar Star /-->
+  <div class="progress-container fixed-top">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+  <!--/ Progress bar End/-->
+
+  <!--/ Intro Skew Star /-->
+  <div class="intro intro-single route bg-image" style="background-image: url(files/USPS/usps_ux/usps-van-in-box.png)">
+    <div class="overlay-mf"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <h2 class="intro-title mb-4">USPS® Online Postal Store</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Intro Skew End /-->
+
+  <section class="blog-wrapper sect-pt4">
+    <div class="container">
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <h2 class="intro-title mb-4" id="overview">Overview</h2>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <p class="lead">
+                The Postal Store gives USPS customers the convenience of ordering online
+              </p>
+              <p class="lead">
+                Customers can order stamps, shipping supplies, and unique items only available from the United States Postal Service®
+              </p>
+            </div>
+          </div>
+          <section class="blog-wrapper sect-pt4" data-aos="fade-up" data-aos-duration="1000">
+            <img src="files/USPS/Postal_Store/img/usps-store-hero1.png" style="float:right;" alt="USPS® Store" class="img-fluid">
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="blog-wrapper sect-pt4">
+    <div class="container">
+      <h2 class="intro-title mb-4" id="highlights">Highlights of the page</h2>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <p class="lead">
+                Enables customers to Shop by Category on the page.
+              </p>
+              <p class="lead">
+                Customers can either use their account or use Guest Checkout.
+              </p>
+              <p class="lead">
+                Customers can subscribe for Stamps.
+              </p>
+              <p class="lead">
+                Free shipping supplies for customers.
+              </p>
+              <img src="files/USPS/Postal_Store/img/usps-store-hero0.png" alt="po locator landing" class="img-fluid" style="">
+              <img src="files/USPS/Postal_Store/img/usps-store-mobile.png" alt="po locator landing" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="intro-title mb-4" id="objectives">Objectives</h2>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <p class="lead">
+                <ul>
+                  <li>Obtain usability data and feedback on the current Postal Store</li>
+                  <li>Test the Guest Checkout experience to find user pain points</li>
+                  <li>Test finding specific items, adding items to the Cart, and going through checkout as a Guest</li>
+                  <li>Employ user research methods to achieve a deep understanding of what USPS users need, want, and prefer</li>
+                  <li>Develop and prioritize design recommendations to optimize improvement and maximize user satisfaction</li>
+                  <li>Recommend design solutions and changes for developer handoff</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="intro-title mb-4" id="process" >Process</h2>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <p class="lead">
+                <ul>
+                  <li>Recruit a diverse sample of USPS customers with a best available mix of age, geographic location, business size and business industry</li>
+                  <li>Prepare testing materials for research, testing and other deliverables</li>
+                  <li>Conduct/Moderate/Observe user interviews to gather both quantitative and qualitative data</li>
+                  <li>Gather feedback from USPS users on the changes needed to the application</li>
+                  <li>Identify opportunities for improving the Postal Store on USPS.com</li>
+                  <li>Analyze data in order to aid in the prioritization of Store and Guest Checkout issues</li>
+                  <li>Make any necessary recommendations and updates to the application through prototypes</li>
+                  <li>Present finidings and recommendation report and deliver prototypes</li>
+                  <li>Communicate design decisions with developers for feasibility and workarounds</li> 
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="intro-title mb-4" id="research">Research</h2>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <img src="files/USPS/PO_Locator/img/usps-surveys.png" style="float:right;" alt="vslo intro" class="img-fluid">
+              <h3>Discovery</h3>
+              <p class="lead">
+                <ul>
+                  <li>Familiarization with the Postal Store site and project timelines</li>
+                  <li>Heuristic evaluation of Postal Store screens and user journey</li>
+                  <li>Stakeholder interviews - USPS Product & Business Owners</li>
+                </ul>
+              </p>
+              <img src="files/USPS/Postal_Store/img/store-gc-sm1.png" style="float:right;" alt="vslo intro" class="img-fluid">
+              <img src="files/USPS/Postal_Store/img/store-gc-sm2.png" style="float:right;" alt="vslo intro" class="img-fluid">
+              <img src="files/USPS/Postal_Store/img/store-gc-sm3.png" style="float:right;" alt="vslo intro" class="img-fluid">
+              <h3>User Surveys</h3>
+              <p class="lead">
+                <ul>
+                  <li>Web-based surveys targeted to USPS users</li>
+                  <li>Recruiting test participants with a good mix according to requirements</li>
+                </ul>
+              </p>
+              <h3>User Interviews</h3>
+              <p class="lead">
+                <ul>
+                  <li>Moderated, structured interviews with USPS users</li>
+                  <li>Conducted via telephone & web conference</li>
+                  <li>Moderators followed standardized interview guide tailored for each user group</li>
+                  <li>Session Structure:
+                    <ol>
+                      <li>Confirm participant background</li>
+                      <li>Discussion of participants’ use of the online Store, and expectations for shopping</li>
+                      <li>Exploration and discussion of the Guest Checkout process</li>
+                      <li>Obtain user insights on Stamp Subscriptions</li>
+                    </ol>
+                  </li>
+                  <li>Conducted on both Mobile and Desktop</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="intro-title mb-4" id="userGroups">User Groups</h2>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <p class="lead">
+                During the Discovery phase, major user groups were identified as Consumers and Business users
+              </p>
+              <p class="lead">
+                A focus on those without a USPS.com® account
+              </p>
+              <p class="lead">
+                28 usability test sessions were conducted remotely with Consumers and Business users across the US
+              </p>
+              <img src="files/USPS/usps_ux/user-groups.png" alt="consumer" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+<!--       <h2 class="intro-title mb-4">Current Application - PO Locator</h2>
+      <div class="row cd-section" id="currentApplication">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3>Navigation</h3>
+              <p class="lead">
+                Participants were first asked to locate PO Locator tool from USPS homepage
+              </p>
+              <div class="col-md-3" style="display:inline-block;">
+                <img src="files/USPS/PO_Locator/img/po-locator-nav-m.png" alt="" class="img-fluid">
+                <span>Mobile</span>
+              </div>
+              <div class="col-md-8" style="display:inline-block;">
+                <img src="files/USPS/PO_Locator/img/po-locator-nav-d.png" alt="" class="img-fluid">
+                <span>Desktop</span>
+              </div>
+            </div>
+          </div>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3>PO Locator Landing</h3>
+              <p class="lead">
+                Participants were then asked to search for a Post Office location and use filter options depending on scenarios
+              </p>
+              <img src="files/USPS/PO_Locator/img/current-po-locator.png" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3>PO Locator Results</h3>
+              <p class="lead">
+                Participants searched using a zip code and navigated to a specific Post Office location screen
+              </p>
+              <img src="files/USPS/PO_Locator/img/current-po-locator-results.png" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3>PO Locator Redesign</h3>
+              <p class="lead">
+                Participants compared current PO Locator and Redesign mockup to provide feedback
+              </p>
+              <img src="files/USPS/PO_Locator/img/current-po-locator-redesign.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <h2 class="intro-title mb-4" id="fnr">Detailed Findings and Recommendations</h2>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">Finding the Store - Navigation</h3>
+              <p class="lead">
+                Customers gave an average rating of 5.7 (out of a possible 7)
+              </p>
+              <p class="lead">
+                Nothing on the USPS.com® homepage specifically mentions “Store”
+              </p>
+              <img src="files/USPS/Postal_Store/img/fnr1a.png" alt="postal store navigation on desktop" class="img-fluid">
+              <img src="files/USPS/Postal_Store/img/fnr1b.png" alt="postal store navigation on mobile" class="img-fluid">
+            </div>
+          </div>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">Store Landing Page</h3>
+              <p class="lead">
+                Customers liked the content and general appearance
+              </p>
+              <img src="files/USPS/Postal_Store/img/fnr2.png" alt="postal store" class="img-fluid">
+              <p class="lead">
+                Appropriate to use wording like “Gifts & More” or “Gifts & Clothing” instead of just "Gifts"- Customers suggested
+              </p>
+              <img src="files/USPS/Postal_Store/img/fnr2b.png" alt="postal store" class="img-fluid">
+            </div>
+          </div>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="padding-top:1em;color:#0070cb;">Landing Page Recommendations</h3>
+              <p class="lead">
+                Consider reducing the number of icons to raise the fold and avoid the blank space
+              </p>
+              <p class="lead">
+                Saved could be moved to the Account pop-up, and Search could have a different design
+              </p>
+              <img src="files/USPS/Postal_Store/img/fnr2c.png" alt="recommendation" class="img-fluid">
+              <img src="files/USPS/Postal_Store/img/fnr2d.png" alt="recommendation" class="img-fluid">
+            </div>
+          </div>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">Search Issues</h3>
+              <p class="lead">
+                Searching for cards in the Store returned non-card items
+              </p>
+              <img src="files/USPS/Postal_Store/img/fnr3.png" alt="postal store" class="img-fluid">
+            </div>
+          </div>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="padding-top:1em;color:#0070cb;">Search Recommendations</h3>
+              <p class="lead">
+                Add a category dropdown as shown below which has All, stamps, supplies, gifts, etc. as options
+              </p>
+              <p class="lead">
+                Search field suggests “in Stamps”, or “in Supplies”, etc. below each autosuggest option
+              </p>
+              <img src="files/USPS/Postal_Store/img/fnr4.png" alt="recommendation" class="img-fluid">
+            </div>
+          </div>
+          <h2 class="intro-title mb-4" id="storeIssues">Store Issues</h2>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">Customers found the anchor “jump” when changing categories to be annoying</h3>
+              <p class="lead">
+                Clicking a category icon at the top “jumps” the focus to an anchor just above the results
+              </p>
+              <p class="lead">
+                Customers found it annoying if they wanted to quickly look between different item categories
+              </p>
+              <img src="files/USPS/Postal_Store/img/fnr6a.png" alt="postal store" class="img-fluid">
+            </div>
+          </div>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">The two blank spaces at the end of each page of items seemed like wasted space</h3>
+              <p class="lead">
+                Customers wondered why these spaces were blank
+              </p>
+              <p class="lead">
+                Customers missed pagination below the fold as they assumed that the items ended
+              </p>
+              <img src="files/USPS/Postal_Store/img/fnr6b.png" alt="postal store" class="img-fluid">
+              <h3 style="padding-top:1em;color:#0070cb;">Recommendation</h3>
+              <p class="lead">
+                Consider dynamically filling the last 2 spaces depending on the number of items on the list.
+              </p>
+              <p class="lead">
+                Note that this will also affect the Per Page dropdown number.
+              </p>
+              <img src="files/USPS/Postal_Store/img/fnr6c.png" alt="recommendation" class="img-fluid">
+            </div>
+          </div>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">Pagination was generally not an issue, but could be improved</h3>
+              <p class="lead">
+                Having pagination at both the top and the bottom would be beneficial
+              </p>
+              <p class="lead">
+                Per Page control is rather far from the pagination and could be overlooked
+              </p>
+              <img src="files/USPS/Postal_Store/img/fnr6d.png" alt="postal store" class="img-fluid">
+              <h3 style="padding-top:1em;color:#0070cb;">Recommendation</h3>
+              <p class="lead">
+                Consider including the pagination and Results Per Page controls at both top and bottom of the page
+              </p>
+              <img src="files/USPS/Postal_Store/img/fnr6d2.png" alt="postal store" class="img-fluid">
+            </div>
+          </div>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">Customers found it difficult to know the size of boxes from the current images.</h3>
+              <img src="files/USPS/Postal_Store/img/fnr6e.png" alt="postal store" class="img-fluid">
+              <h3 style="padding-top:1em;color:#0070cb;">Recommendation</h3>
+              <p class="lead">
+                Consider diagrammatic and / or object images for determining box size
+              </p>
+              <img src="files/USPS/Postal_Store/img/fnr6f.png" alt="recommendation" class="img-fluid">
+            </div>
+          </div>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">Available box formats was confusing to customers</h3>
+              <p class="lead">
+                “Boxes 1-5” option was confusing - pack of 5, or the boxes were part of a set
+              </p>
+              <p class="lead">
+                Not all read the highlighted text which mentions “single (1-5),”
+              </p>
+              <img src="files/USPS/Postal_Store/img/fnr6g.png" alt="postal store" class="img-fluid">
+              <h3 style="padding-top:1em;color:#0070cb;">Recommendation</h3>
+              <p class="lead">
+                Consider changing the wording to "Single Box"
+              </p>
+              <p class="lead">
+                Highlight the quantity input box in red with the error right below it - inline error.
+              </p>
+              <img src="files/USPS/Postal_Store/img/fnr6g2.png" alt="recommendation" class="img-fluid">
+            </div>
+          </div>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">Using “$0.00” to indicate “free” is not sufficiently clear</h3>
+              <p class="lead">
+                Some customers did not take “$0.00” to mean “free"
+              </p>
+              <p class="lead">
+                They felt that price would update once the item was added to their cart along with shipping
+              </p>
+              <img src="files/USPS/Postal_Store/img/fnr6h.png" alt="postal store" class="img-fluid">
+              <h3 style="padding-top:1em;color:#0070cb;">Recommendation</h3>
+              <p class="lead">
+                Consider whether showing “Free” wording for free supplies would be beneficial
+              </p>
+              <img src="files/USPS/Postal_Store/img/fnr6i.png" alt="recommendation" class="img-fluid">
+            </div>
+          </div>
+
+          <h2 class="intro-title mb-4" id="guestCheckout">Guest Checkout</h2>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">On Mobile, the Chat Now option got in people’s way</h3>
+              <p class="lead">
+                The Chat Now option was very large on Mobile screens
+              </p>
+              <p class="lead">
+                It reduced the visible screen space and obscured fields lower in the form
+              </p>
+              <h3 style="padding-top:1em;color:#0070cb;">Recommendation</h3>
+              <p class="lead">
+                Reduce the size of the Chat Now prompt on Mobile
+              </p>
+              <p class="lead">
+                Show the chat option with text for a couple of seconds and minimizing it to just an icon
+              </p>
+              <img src="files/USPS/Postal_Store/img/fnr7a.png" alt="postal store" class="img-fluid">
+            </div>
+          </div>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">Editing the cart led to confusion</h3>
+              <p class="lead">
+                When a customer updates the quantity, there is no visual indicator of a successful update
+              </p>
+              <img src="files/USPS/Postal_Store/img/fnr7b1.png" alt="postal store" class="img-fluid">
+              <img src="files/USPS/Postal_Store/img/fnr7b2.png" alt="postal store" class="img-fluid">
+              <img src="files/USPS/Postal_Store/img/fnr7b3.png" alt="postal store" class="img-fluid">
+            </div>
+          </div>
+          <h2 class="intro-title mb-4" id="stampSubscription">Stamp Subscription</h2>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">Customers struggled to find Stamp Subscriptions</h3>
+              <p class="lead">
+                Customers tended to look first on the USPS.com® homepage, then in Stamps, and then in Business Supplies
+              </p>
+              <p class="lead">
+                Part of filter options: Those that looked in Stamps missed the filter for Stamp Subscriptions
+              </p>
+              <p class="lead">
+                Average rating of 2.7 (out of a possible 7) in terms of how easy it was to locate Stamp Subscriptions
+              </p>
+              <img src="files/USPS/Postal_Store/img/fnr8a.png" alt="postal store" class="img-fluid">
+              <h3 style="padding-top:1em;color:#0070cb;">Recommendation</h3>
+              <p class="lead">
+                Stamp subscriptions should be mentioned or linked to in other parts of the site, such as the "Shop" megamenu
+              </p>
+              <p class="lead">
+                Stamp subscriptions could be shown as an additional list item or advertisement
+              </p>
+            </div>
+          </div>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">Presentation of the stamp subscription costs was confusing or misleading</h3>
+              <p class="lead">
+                Odd that the prices shown are all the same
+              </p>
+              <p class="lead">
+                The total does not update based on the option selected
+              </p>
+              <p class="lead">
+                Average rating of 3.4 (out of a possible 7) in terms of how easy it was to understand the formats and costs
+              </p>
+              <img src="files/USPS/Postal_Store/img/fnr8b.png" alt="postal store" class="img-fluid">
+              <h3 style="padding-top:1em;color:#0070cb;">Recommendation</h3>
+              <p class="lead">
+                Potential changes to the cost display according to subscriptions
+              </p>
+              <img src="files/USPS/Postal_Store/img/fnr8c.png" alt="postal store" class="img-fluid">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <h2 class="intro-title mb-4" id="finalDelivery">Final report delivery with recommended designs handoff</h2>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <img src="files/USPS/Postal_Store/img/final-report.png" alt="usps store report" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav id="cd-vertical-nav">
+      <ul>
+        <li><a href="#overview" data-number="1" class="js-scroll"><span class="cd-dot"></span><span class="cd-label">Overview</span></a></li>
+        <li><a href="#highlights" data-number="2" class="js-scroll"><span class="cd-dot"></span><span class="cd-label">Highlights</span></a></li>
+        <li><a href="#objectives" data-number="3" class="js-scroll"><span class="cd-dot"></span><span class="cd-label">Objectives</span></a></li>
+        <li><a href="#process" data-number="4" class="js-scroll"><span class="cd-dot"></span><span class="cd-label">Process</span></a></li>
+        <li><a href="#research" data-number="5" class="js-scroll"><span class="cd-dot"></span><span class="cd-label">Research</span></a></li>
+        <li><a href="#userGroups" data-number="6" class="js-scroll"><span class="cd-dot"></span><span class="cd-label">User Groups</span></a></li>
+        <li><a href="#fnr" data-number="8" class="js-scroll"><span class="cd-dot"></span><span class="cd-label">Findings & Recommendations</span></a></li>
+        <li><a href="#storeIssues" data-number="9" class="js-scroll"><span class="cd-dot"></span><span class="cd-label">Store Issues</span></a></li>
+        <li><a href="#guestCheckout" data-number="9" class="js-scroll"><span class="cd-dot"></span><span class="cd-label">Guest Checkout</span></a></li>
+        <li><a href="#stampSubscription" data-number="9" class="js-scroll"><span class="cd-dot"></span><span class="cd-label">Stamp Subscription</span></a></li>
+        <li><a href="#finalDelivery" data-number="10" class="js-scroll"><span class="cd-dot"></span><span class="cd-label">Final Delivery</span></a></li>
+      </ul>
+      </ul>
+    </nav>
+  </section>
+  <!--/ Section Blog-Single End /-->
+
+  <!--/ Section Contact-Footer Star /-->
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright-box">
+              <p class="copyright">&copy; <strong>Manu Peethambar</strong>. All Rights Reserved</p>
+              <div class="credits">
+                Designed by <a href="javascript:void()">Manu Peethambar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!--/ Section Contact-footer End /-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+  </script>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+  <script src="js/vertical-nav.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>

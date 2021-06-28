@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135897907-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-135897907-1');
+  </script>
+  
+  <meta charset="utf-8">
+  <title>Usability evaluation and redesign of postal service website</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!--/ Nav Star /-->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll" href="index.html"><img src="img/manu-logo.png" class="img-fluid b-shadow-a" style="width:50px" alt="manUXer"></a>
+      <div id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="javascript:history.back()">&#8678; Back</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ Nav End /-->
+  
+  <!--/ Progress bar Star /-->
+  <div class="progress-container fixed-top">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+  <!--/ Progress bar End/-->
+
+  <!--/ Intro Skew Star /-->
+  <div class="intro intro-single route bg-image" style="background-image: url(files/USPS/PO_Locator/img/usps-po-hero.jpeg)">
+    <div class="overlay-mf"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <h2 class="intro-title mb-4">US Postal Service - PO Locator</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Intro Skew End /-->
+
+  <section class="blog-wrapper sect-pt4">
+    <div class="container">
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <h2 class="intro-title mb-4" id="overview">Overview</h2>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <p class="lead">
+                USPS PO Locator is a tool to find USPS Locations (or send directions) and hours of operation.
+              </p>
+              <p class="lead">
+                When you search for a Post Office, you can use filter options to narrow your search results, so the location details page will show you which of those services are available in person at a specific facility.
+              </p>
+              <p class="lead">
+                This tool/application was evaluated using usability testing methods with the help of actual USPS end customers.
+              </p>
+            </div>
+          </div>
+          <section class="blog-wrapper sect-pt4" data-aos="fade-up" data-aos-duration="1000">
+            <img src="files/USPS/PO_Locator/img/usps-po-hero.jpeg" style="float:right;" alt="vslo intro" class="img-fluid">
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="blog-wrapper sect-pt4">
+    <div class="container">
+      <h2 class="intro-title mb-4" id="highlights">Highlights of the tool</h2>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <p class="lead">
+                Enables customers to look up USPS Locations (or send directions) and hours of operation.
+              </p>
+              <p class="lead">
+                Customers can use their current location for finding Post Office locations around them.
+              </p>
+              <p class="lead">
+                Customers can fill in their City and State or just their ZIP Code™ to find PO locations.
+              </p>
+              <p class="lead">
+                Filter locations according to services listed for various locations.
+              </p>
+              <img src="files/USPS/PO_Locator/img/po-locator-landing.png" alt="po locator landing" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="intro-title mb-4" id="objectives">Objectives</h2>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <p class="lead">
+                <ul>
+                  <li>Obtain user impressions and feedback on the current PO Locator and PO Locator redesign concepts, including:
+                    <ul>
+                      <li>Likes/dislikes</li>
+                      <li>Points of confusion</li>
+                      <li>Unmet business needs</li>
+                      <li>Desired additions/changes</li>
+                    </ul>
+                  <li>Compare USPS® PO Locator with competitor/alternate locator tools</li>
+                  <li>Employ user research methods to achieve a deep understanding of what USPS users need, want, and prefer</li>
+                  <li>Identify areas in which users' expectations for the application are misaligned</li>
+                  <li>Develop and prioritize design recommendations to optimize improvement and maximize user satisfaction</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="intro-title mb-4" id="process">Process</h2>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <p class="lead">
+                <ul>
+                  <li>Recruit a diverse sample of USPS customers with a best available mix of age, geographic location, business size and business industry</li>
+                  <li>Prepare testing materials for research, testing and other deliverables</li>
+                  <li>Conduct/Moderate/Observe user interviews to gather both quantitative and qualitative data</li>
+                  <li>Gather feedback from USPS users on the changes needed to the application</li>
+                  <li>Identify opportunities for improving the PO Locator Application on USPS.com</li>
+                  <li>Analyze data in order to aid in the prioritization of PO locator issues</li>
+                  <li>Make any necessary recommendations and updates to the application through prototypes</li>
+                  <li>Present finidings and recommendation report and deliver prototypes</li>
+                  <li>Communicate design decisions with developers for feasibility and workarounds</li> 
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="intro-title mb-4" id="research">Research</h2>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <img src="files/USPS/PO_Locator/img/usps-surveys.png" style="float:right;" alt="vslo intro" class="img-fluid">
+              <h3>Discovery</h3>
+              <p class="lead">
+                <ul>
+                  <li>Familiarization with the PO Locator application and project timelines</li>
+                  <li>Heuristic evaluation of PO Locator screens and user journey</li>
+                  <li>Stakeholder interviews - USPS Product & Business Owners</li>
+                </ul>
+              </p>
+              <img src="files/USPS/PO_Locator/img/po-loc-sm1.png" style="float:right;" alt="vslo intro" class="img-fluid">
+              <img src="files/USPS/PO_Locator/img/po-loc-sm2.png" style="float:right;" alt="vslo intro" class="img-fluid">
+              <h3>User Surveys</h3>
+              <p class="lead">
+                <ul>
+                  <li>Web-based surveys targeted to USPS users</li>
+                  <li>Recruiting test participants with a good mix according to requirements</li>
+                </ul>
+              </p>
+              <h3>User Interviews</h3>
+              <p class="lead">
+                <ul>
+                  <li>Moderated, structured interviews with USPS users</li>
+                  <li>Conducted via telephone & web conference</li>
+                  <li>Moderators followed standardized interview guide tailored for each user group</li>
+                  <li>Session Structure:
+                    <ol>
+                      <li>Confirm participant background</li>
+                      <li>Discussion of participants’ use of locators, and expectations for PO Locator</li>
+                      <li>Exploration and discussion of the current PO Locator and Special Hours treatment</li>
+                      <li>Exploration and discussion of the PO Locator redesign concept prototype</li>
+                      <li>As time allowed, exploration and discussion of an alternative online locator application (Australia Post, Home Depot,
+                      Apple, REI, or Williams-Sonoma)</li>
+                    </ol>
+                  </li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="intro-title mb-4" id="userGroups">User Groups</h2>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <p class="lead">
+                During the Discovery phase, major user groups were identified as <strong>Consumers</strong> and <strong>Business</strong> users
+              </p>
+              <p class="lead">
+                24 usability test sessions were conducted remotely with Consumers and Business users of USPS.com
+              </p>
+              <img src="files/USPS/usps_ux/user-groups.png" alt="consumer" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="intro-title mb-4" id="currentApplication">Current Application - PO Locator</h2>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3>Navigation</h3>
+              <p class="lead">
+                Participants were first asked to locate PO Locator tool from USPS homepage
+              </p>
+              <div class="col-md-3" style="display:inline-block;">
+                <img src="files/USPS/PO_Locator/img/po-locator-nav-m.png" alt="" class="img-fluid">
+                <span>Mobile</span>
+              </div>
+              <div class="col-md-8" style="display:inline-block;">
+                <img src="files/USPS/PO_Locator/img/po-locator-nav-d.png" alt="" class="img-fluid">
+                <span>Desktop</span>
+              </div>
+            </div>
+          </div>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3>PO Locator Landing</h3>
+              <p class="lead">
+                Participants were then asked to search for a Post Office location and use filter options depending on scenarios
+              </p>
+              <img src="files/USPS/PO_Locator/img/current-po-locator.png" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3>PO Locator Results</h3>
+              <p class="lead">
+                Participants searched using a zip code and navigated to a specific Post Office location screen
+              </p>
+              <img src="files/USPS/PO_Locator/img/current-po-locator-results.png" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3>PO Locator Redesign</h3>
+              <p class="lead">
+                Participants compared current PO Locator and Redesign mockup to provide feedback
+              </p>
+              <img src="files/USPS/PO_Locator/img/current-po-locator-redesign.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="intro-title mb-4" id="fnr">Detailed Findings and Recommendations</h2>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">Interactions between map and results were insufficient</h3>
+              <p class="lead">
+                
+              </p>
+              <img src="files/USPS/PO_Locator/img/finding1.png" alt="vslo intro" class="img-fluid">
+              <h3 style="padding-top:1em;color:#0070cb;">Recommendation</h3>
+              <p class="lead">
+                Show numbers for pins that correspond to the results
+              </p>
+              <img src="files/USPS/PO_Locator/img/recommend1b.png" alt="vslo intro" class="img-fluid">
+              <h3 style="padding-top:1em;color:#0070cb;">Recommendation</h3>
+              <p class="lead">
+                Highlight the map pin and display location details while hovering over a search result
+              </p>
+              <img src="files/USPS/PO_Locator/img/recommend1a.png" alt="vslo intro" class="img-fluid">
+            </div>
+          </div>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">Difficult to Use the Map on Mobile</h3>
+              <p class="lead">
+                
+              </p>
+              <img src="files/USPS/PO_Locator/img/finding2a.png" alt="finding" class="img-fluid">
+              <img src="files/USPS/PO_Locator/img/finding2b.png" alt="finding" class="img-fluid">
+              <img src="files/USPS/PO_Locator/img/finding2c.png" alt="finding" class="img-fluid">
+              <h3 style="padding-top:1em;color:#0070cb;">Recommendation</h3>
+              <p class="lead">
+                Consider overlaying search terms over the map so that they are visible. Also consider adding a “tab” or other area near the bottom that a user can tap and hold to scroll the page.
+              </p>
+            </div>
+          </div>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">Interactions Between Map and Results are Insufficient</h3>
+              <p class="lead">
+                
+              </p>
+              <img src="files/USPS/PO_Locator/img/finding3.png" alt="finding" class="img-fluid">
+              <h3 style="padding-top:1em;color:#0070cb;">Recommendation</h3>
+              <p class="lead">
+                Highlight the map pin and display location details while hovering over a search result
+              </p>
+              <img src="files/USPS/PO_Locator/img/recommend3.png" alt="recommendation" class="img-fluid">
+            </div>
+          </div>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">20 miles default was too far</h3>
+              <p class="lead">
+                
+              </p>
+              <img src="files/USPS/PO_Locator/img/finding4.png" alt="finding" class="img-fluid">
+              <h3 style="padding-top:1em;color:#0070cb;">Recommendations</h3>
+              <p class="lead">
+                <ol>
+                  <li>Add a 5-mile radius option. There was no 5-mile radius option</li>
+                  <li>Consider changing the default to 5 or 10 miles</li>
+                  <li>Have the system change to the next farther distance if no results are found with the default (until results are found)</li>
+                </ol>
+              </p>
+              <img src="files/USPS/PO_Locator/img/recommend3.png" alt="recommendation" class="img-fluid">
+            </div>
+          </div>
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">Viewing and applying filters was problematic</h3>
+              <p class="lead">
+                
+              </p>
+              <img src="files/USPS/PO_Locator/img/finding5.png" alt="finding" class="img-fluid">
+              <h3 style="padding-top:1em;color:#0070cb;">Recommendations</h3>
+              <p class="lead">
+                <ol>
+                  <li>Include the option to view and apply filters from the Results List page</li>
+                  <li>Show a filter applied tag and an “Apply” button/link to confirm selected filters</li>
+                </ol>
+              </p>
+              <img src="files/USPS/PO_Locator/img/recommend5.png" alt="recommendation" class="img-fluid">
+              <h3 style="padding-top:1em;color:#0070cb;">Recommendation</h3>
+              <p class="lead">
+                Show filter options on the results page on mobile
+              </p>
+              <img src="files/USPS/PO_Locator/img/recommend5b.png" alt="recommendation" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="intro-title mb-4" id="ratings">Customer ratings</h2>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <p class="lead">
+                Participant Ratings on the Current PO Locator
+              </p>
+              <p class="lead">
+                <ul>
+                  <li>How intuitive it was to use PO Locator</li>
+                  <li>Usefulness of the map</li>
+                  <li>Usefulness of the results list</li>
+                  <li>Usefulness of the location details view</li>
+                </ul>
+              </p>
+              <img src="files/USPS/PO_Locator/img/po-loc-overall-ratings.png" alt="recommendation" class="img-fluid">
+              <p class="lead">
+                The map was seen as the least useful component
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="intro-title mb-4" id="customerSuggestions">Customer suggestions</h2>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">Navigation</h3>
+              <p class="lead">
+                PO Locator is linked to in the Send megamenu (and in Quick Tools), but not on the landing page
+              </p>
+              <img src="files/USPS/PO_Locator/img/cust-suggest1.png" alt="customer suggestion" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">Navigation</h3>
+              <p class="lead">
+                Customer suggested adding other sort options to the results, rather than just by distance
+              </p>
+              <p class="lead">
+                For example, open now (vs. closed), latest hours they are open, or number of days open
+              </p>
+              <img src="files/USPS/PO_Locator/img/cust-suggest2.png" alt="customer suggestion" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">Map</h3>
+              <p class="lead">
+                Have the map update when the user zooms out to show additional locations (like Google)
+              </p>
+              <p class="lead">
+                Auto-suggest would be a nice addition to PO Locator when entering an address
+              </p>
+              <img src="files/USPS/PO_Locator/img/cust-suggest3.png" alt="customer suggestion" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="intro-title mb-4" id="uxRecommendations">UX Recommendations</h2>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">Filters</h3>
+              <p class="lead">
+                Applying filters with an “Apply” button
+              </p>
+              <img src="files/USPS/PO_Locator/img/suggest1.png" alt="customer suggestion" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">Filters</h3>
+              <p class="lead">
+                Show a filter applied tag to confirm selected filters.
+              </p>
+              <img src="files/USPS/PO_Locator/img/suggest2.png" alt="customer suggestion" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">Map</h3>
+              <p class="lead">
+                Highlight map pin when hovered on result
+              </p>
+              <p class="lead">
+                Highlighting the pins while hovering on a result helps users visually associate the two
+              </p>
+              <img src="files/USPS/PO_Locator/img/suggest3.png" alt="customer suggestion" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">Map</h3>
+              <p class="lead">
+                Highlight map pin when hovered on result
+              </p>
+              <p class="lead">
+                Highlighting the pins while hovering on a result helps users visually associate the two
+              </p>
+              <img src="files/USPS/PO_Locator/img/suggest3.png" alt="customer suggestion" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <h3 style="color:#993000;">Map</h3>
+              <p class="lead">
+                Use Google Maps instead of ESRI
+              </p>
+              <p class="lead">
+                Most customers use google maps
+              </p>
+              <p class="lead">
+                A lot of features could be achieved using Google Map APIs
+              </p>
+              <img src="files/USPS/PO_Locator/img/suggest4.png" alt="customer suggestion" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="intro-title mb-4" id="finalDelivery">Final report delivery with recommended designs handoff</h2>
+      <div class="row cd-section">
+        <div class="col-md-12">
+          <div class="post-box" data-aos="fade-up" data-aos-duration="1000">
+            <div class="article-content">
+              <img src="files/USPS/PO_Locator/img/final-report.png" alt="usps store report" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav id="cd-vertical-nav">
+      <ul>
+        <li><a href="#overview" data-number="1" class="js-scroll"><span class="cd-dot"></span><span class="cd-label">Overview</span></a></li>
+        <li><a href="#highlights" data-number="2" class="js-scroll"><span class="cd-dot"></span><span class="cd-label">Highlights</span></a></li>
+        <li><a href="#objectives" data-number="3" class="js-scroll"><span class="cd-dot"></span><span class="cd-label">Objectives</span></a></li>
+        <li><a href="#process" data-number="4" class="js-scroll"><span class="cd-dot"></span><span class="cd-label">Process</span></a></li>
+        <li><a href="#research" data-number="5" class="js-scroll"><span class="cd-dot"></span><span class="cd-label">Research</span></a></li>
+        <li><a href="#userGroups" data-number="6" class="js-scroll"><span class="cd-dot"></span><span class="cd-label">User Groups</span></a></li>
+        <li><a href="#currentApplication" data-number="7" class="js-scroll"><span class="cd-dot"></span><span class="cd-label">Current Application</span></a></li>
+        <li><a href="#fnr" data-number="8" class="js-scroll"><span class="cd-dot"></span><span class="cd-label">Findings</span></a></li>
+        <li><a href="#ratings" data-number="9" class="js-scroll"><span class="cd-dot"></span><span class="cd-label">Customer Ratings</span></a></li>
+        <li><a href="#customerSuggestions" data-number="10" class="js-scroll"><span class="cd-dot"></span><span class="cd-label">Customer Suggestions</span></a></li>
+        <li><a href="#uxRecommendations" data-number="12" class="js-scroll"><span class="cd-dot"></span><span class="cd-label">UX Recommendations</span></a></li>
+        <li><a href="#finalDelivery" data-number="10" class="js-scroll"><span class="cd-dot"></span><span class="cd-label">Final Delivery</span></a></li>
+      </ul>
+      </ul>
+    </nav>
+  </section>
+  <!--/ Section Blog-Single End /-->
+
+  <!--/ Section Contact-Footer Star /-->
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright-box">
+              <p class="copyright">&copy; <strong>Manu Peethambar</strong>. All Rights Reserved</p>
+              <div class="credits">
+                Designed by <a href="javascript:void()">Manu Peethambar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!--/ Section Contact-footer End /-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+  </script>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+  <script src="js/vertical-nav.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
